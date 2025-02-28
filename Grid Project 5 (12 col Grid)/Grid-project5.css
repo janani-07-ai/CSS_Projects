@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Outfit" ;
+}
+body{
+    background-color: azure;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap:30px;
+}
+header{
+    padding: 20px 40px;
+    background-color: white;
+    align-items: center;
+}
+header h1{
+    grid-column: span 6;
+}
+header div{
+    grid-column: 7/span 6;
+    justify-self: end;
+}
+header a{
+    color: rgb(76, 73, 73);
+    margin-left: 10px;
+    text-decoration: none;
+}
+main{
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+main img{
+    grid-column: span 6;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+main .welcome{
+    grid-column: 8/span 5;
+}
+main .welcome,h2,p{
+    padding-bottom: 20px;
+}
+main > h2{
+    grid-column: span 12;
+    text-align: center;
+    padding-top: 20px;
+}
+main .card{
+    grid-column: span 4;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gainsboro;
+    padding: 20px;
+}
+main .card h3{
+    padding-bottom: 10px;
+}
+
+/*Responsive design*/
+
+@media screen and (max-width:960px) {
+    main img {
+       grid-column: 2 /span 10;
+    }
+    main .welcome{
+        grid-column:3 / span 8 ;
+        text-align: center;
+    }
+    main .card{
+        grid-column: 3 / span 8;
+    }
+}

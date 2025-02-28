@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(215, 214, 237);
+    margin: 5% 18% 5% 18%;
+    border:solid 5px black;
+}
+.container{
+    padding:50px;
+}
+.title{
+    position:relative;
+    bottom:100px;
+    left:250px;
+}
+img{
+    border-radius: 50%;
+}
+.link{
+    position:relative;
+    left:500px;
+}
+ul{
+    position:relative;
+    left:50px;
+}

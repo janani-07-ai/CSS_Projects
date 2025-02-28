@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="Job-application.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 style="text-align: center;margin-bottom: 20px;">Job Application</h1>
+        <form class="form_container">
+            <div class="one">
+                <label for="first_name">First Name</label>
+                <input id="first_name" type="text" placeholder="Enter First Name...">
+                <label for="last_name">Last Name</label>
+                <input id="last_name" type="text" placeholder="Enter Last Name...">
+            </div>
+            <div class="two">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="Enter Email...">
+                <label for="job_role">Job Role</label>
+                <select id="job_role">
+                    <option>Select any one</option>
+                    <option>Computer engineer</option>
+                    <option>Civil engineer</option>
+                    <option>Mechanical engineer</option>
+                    <option>Design engineer</option>
+                </select>
+            </div>
+            <div class="three">
+            <label for="address">Enter Address</label>
+            <textarea id="address" rows="4" cols="50" placeholder="Enter the address..."></textarea>
+            </div>
+            <div class="four">
+            <label for="city">City</label>
+            <input  id="city" type="text" placeholder="Enter City...">
+            <label for="pincode">Pincode</label>
+            <input  id="pincode" type="number" placeholder="Enter Pincode...">
+            </div>
+            <div class="five">
+            <label for="start_date">Start Date</label>
+            <input id="start_date"type="date">
+            </div>
+        </form>
+            <div class="upload_cv">
+            <label for="upload">Upload Your CV</label>
+            <input id="upload"type="file">
+            </div>
+            <button>Apply Now</button>
+    </div>
+</body>
+</html>

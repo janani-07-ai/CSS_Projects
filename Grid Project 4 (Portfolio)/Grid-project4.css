@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one{
+    background-color: rgb(46, 44, 44);
+    color: rgb(187, 182, 182);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.one h1{
+    color:white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.one nav a{
+    color:rgb(187, 182, 182);
+}
+.one nav {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.one div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 400px;
+}
+.two img{
+    height: 800px;
+    width: 500px;
+    border: black; 
+}
+.two div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.three div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.three img{
+    height:800px;
+    width: 500px;
+    border:black;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "sectionone sectiontwo sectionthree";
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.two{
+    display:grid;
+    grid-template-rows: 4fr 1fr;
+}
+.three{
+    display:grid;
+    grid-template-rows: 1fr 4fr;
+}
+.two div{
+    padding: 30px 0 0 30px;
+}
+.three div{
+    padding: 30px 0 0 30px;
+}
+@media screen and (max-width:1400px){
+    main{
+    grid-template-columns: 1fr 1fr;
+    }
+}

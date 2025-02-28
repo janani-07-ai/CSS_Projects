@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:grey;
+}
+#container{
+    background-color: white;
+    border:solid 2px white;
+    border-radius: 10px;
+    margin:90px 200px 90px 200px;
+    padding:50px;
+}
+.one{
+    padding:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.two{
+    padding:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.three{
+    padding:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.four{
+    padding:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.five{
+    padding:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 480px;
+    padding: 8px;
+    background-color: rgb(245, 74, 74);
+    color: white;
+    border-radius: 8%;
+}
+.form_container{
+   display:grid;
+   grid-template-columns: 1fr,1fr;
+   gap:10px;
+}
+.upload_cv{
+    padding:20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
